@@ -1,0 +1,248 @@
+{
+  "Paciente estável, sem queixas no momento. Sinais vitais dentro dos parâmetros.": {
+    "sentimento": "positive",
+    "entidades": [
+      {
+        "texto": "estável",
+        "categoria": "SymptomOrSign",
+        "certeza": null,
+        "confianca": 0.97
+      },
+      {
+        "texto": "sem",
+        "categoria": "SymptomOrSign",
+        "certeza": null,
+        "confianca": 0.71
+      },
+      {
+        "texto": "queixas",
+        "categoria": "SymptomOrSign",
+        "certeza": "negative",
+        "confianca": 0.97
+      },
+      {
+        "texto": "Sinais vitais",
+        "categoria": "ExaminationName",
+        "certeza": null,
+        "confianca": 0.94
+      },
+      {
+        "texto": "parâmetros",
+        "categoria": "MeasurementValue",
+        "certeza": null,
+        "confianca": 0.86
+      }
+    ]
+  },
+  "Paciente dormiu bem. Nega dor e nega febre. Aceitou a dieta.": {
+    "sentimento": "mixed",
+    "entidades": [
+      {
+        "texto": "dormiu bem",
+        "categoria": "SymptomOrSign",
+        "certeza": null,
+        "confianca": 0.98
+      },
+      {
+        "texto": "dor",
+        "categoria": "SymptomOrSign",
+        "certeza": "negative",
+        "confianca": 1.0
+      },
+      {
+        "texto": "febre",
+        "categoria": "SymptomOrSign",
+        "certeza": "negative",
+        "confianca": 0.99
+      },
+      {
+        "texto": "Aceitou",
+        "categoria": "SymptomOrSign",
+        "certeza": null,
+        "confianca": 0.56
+      }
+    ]
+  },
+  "Paciente nega tontura e nega falta de ar. Deambula sem auxílio.": {
+    "sentimento": "negative",
+    "entidades": [
+      {
+        "texto": "tontura",
+        "categoria": "SymptomOrSign",
+        "certeza": "negative",
+        "confianca": 1.0
+      },
+      {
+        "texto": "falta de ar",
+        "categoria": "SymptomOrSign",
+        "certeza": "negative",
+        "confianca": 1.0
+      },
+      {
+        "texto": "Deambula sem",
+        "categoria": "SymptomOrSign",
+        "certeza": null,
+        "confianca": 0.58
+      }
+    ]
+  },
+  "Medicação administrada conforme prescrição atualizada. Paciente sem queixas.": {
+    "sentimento": "positive",
+    "entidades": [
+      {
+        "texto": "sem queixas",
+        "categoria": "SymptomOrSign",
+        "certeza": null,
+        "confianca": 0.65
+      }
+    ]
+  },
+  "Paciente refere dor leve no joelho há dois dias, sem alteração. Nega tontura.": {
+    "sentimento": "negative",
+    "entidades": [
+      {
+        "texto": "dor",
+        "categoria": "SymptomOrSign",
+        "certeza": null,
+        "confianca": 1.0
+      },
+      {
+        "texto": "leve",
+        "categoria": "ConditionQualifier",
+        "certeza": null,
+        "confianca": 0.97
+      },
+      {
+        "texto": "joelho",
+        "categoria": "BodyStructure",
+        "certeza": null,
+        "confianca": 0.98
+      },
+      {
+        "texto": "dois dias",
+        "categoria": "Time",
+        "certeza": null,
+        "confianca": 0.99
+      },
+      {
+        "texto": "alteração",
+        "categoria": "Course",
+        "certeza": null,
+        "confianca": 0.88
+      },
+      {
+        "texto": "tontura",
+        "categoria": "SymptomOrSign",
+        "certeza": "negative",
+        "confianca": 1.0
+      }
+    ]
+  },
+  "Paciente refere tontura e fraqueza ao levantar. Nega dor no peito.": {
+    "sentimento": "negative",
+    "entidades": [
+      {
+        "texto": "tontura",
+        "categoria": "SymptomOrSign",
+        "certeza": null,
+        "confianca": 1.0
+      },
+      {
+        "texto": "fraqueza",
+        "categoria": "SymptomOrSign",
+        "certeza": null,
+        "confianca": 1.0
+      },
+      {
+        "texto": "dor no peito",
+        "categoria": "SymptomOrSign",
+        "certeza": "negative",
+        "confianca": 0.75
+      }
+    ]
+  },
+  "Orientado a não levantar sem auxílio. Mantido em observação.": {
+    "sentimento": "neutral",
+    "entidades": []
+  },
+  "Paciente refere que fica sem fôlego ao caminhar até o banheiro.": {
+    "sentimento": "neutral",
+    "entidades": [
+      {
+        "texto": "sem fôlego",
+        "categoria": "SymptomOrSign",
+        "certeza": null,
+        "confianca": 0.94
+      },
+      {
+        "texto": "banheiro",
+        "categoria": "CareEnvironment",
+        "certeza": null,
+        "confianca": 0.59
+      }
+    ]
+  },
+  "Paciente encontrado no chão ao lado do leito às 10:32, consciente, referindo tontura. Equipe médica acionada.": {
+    "sentimento": "negative",
+    "entidades": [
+      {
+        "texto": "10:32",
+        "categoria": "Time",
+        "certeza": null,
+        "confianca": 0.98
+      },
+      {
+        "texto": "consciente",
+        "categoria": "SymptomOrSign",
+        "certeza": null,
+        "confianca": 0.98
+      },
+      {
+        "texto": "tontura",
+        "categoria": "SymptomOrSign",
+        "certeza": null,
+        "confianca": 1.0
+      }
+    ]
+  },
+  "Paciente encontrado no chão ao lado do leito às 10:31, consciente, referindo tontura. Equipe médica acionada.": {
+    "sentimento": "negative",
+    "entidades": [
+      {
+        "texto": "10:31",
+        "categoria": "Time",
+        "certeza": null,
+        "confianca": 0.98
+      },
+      {
+        "texto": "consciente",
+        "categoria": "SymptomOrSign",
+        "certeza": null,
+        "confianca": 0.98
+      },
+      {
+        "texto": "tontura",
+        "categoria": "SymptomOrSign",
+        "certeza": null,
+        "confianca": 1.0
+      }
+    ]
+  },
+  "Paciente encontrado no chão ao lado do leito, consciente, referindo tontura. Equipe médica acionada.": {
+    "sentimento": "negative",
+    "entidades": [
+      {
+        "texto": "consciente",
+        "categoria": "SymptomOrSign",
+        "certeza": null,
+        "confianca": 0.98
+      },
+      {
+        "texto": "tontura",
+        "categoria": "SymptomOrSign",
+        "certeza": null,
+        "confianca": 1.0
+      }
+    ]
+  }
+}

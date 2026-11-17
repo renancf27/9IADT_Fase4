@@ -1,0 +1,12 @@
+fonte,timestamp,descricao,sintomas_presentes,sintomas_negados,ativa_contexto
+nota,2026-10-26 20:00:00,"Paciente estável, sem queixas no momento. Sinais vitais dentro dos parâmetros.",,,False
+nota,2026-10-27 06:30:00,Paciente dormiu bem. Nega dor e nega febre. Aceitou a dieta.,,dor; febre,False
+nota,2026-10-27 08:00:00,Paciente nega tontura e nega falta de ar. Deambula sem auxílio.,,tontura; falta de ar,False
+prescricao,2026-10-27 09:00:00,Dose de Losartana alterada de 50 mg para 150 mg (3x),,,
+nota,2026-10-27 09:10:00,Medicação administrada conforme prescrição atualizada. Paciente sem queixas.,,,False
+nota,2026-10-27 09:40:00,"Paciente refere dor leve no joelho há dois dias, sem alteração. Nega tontura.",dor no joelho,tontura,False
+nota,2026-10-27 10:00:00,Paciente refere tontura e fraqueza ao levantar. Nega dor no peito.,tontura; fraqueza,dor no peito,True
+nota,2026-10-27 10:15:00,Orientado a não levantar sem auxílio. Mantido em observação.,,,False
+nota,2026-10-27 10:20:00,Paciente refere que fica sem fôlego ao caminhar até o banheiro.,dispneia (sem fôlego),,True
+vitais,2026-10-27 10:32:00,"SpO2 ~89%, FC ~118, PA ~87/53 a partir da alteração",,,
+nota,2026-10-27 10:35:00,"Paciente encontrado no chão ao lado do leito, consciente, referindo tontura. Equipe médica acionada.",tontura,,True

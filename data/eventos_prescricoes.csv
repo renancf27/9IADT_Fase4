@@ -1,0 +1,2 @@
+timestamp,medicamento,dose_mg,via,frequencia,variacao_pct,mudou_frequencia,anom_dose,anomalia,motivo
+2026-10-27 09:00:00,Losartana,150,oral,24/24h,200.0,False,True,True,dose +200%
